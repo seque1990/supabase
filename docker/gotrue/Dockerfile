@@ -1,4 +1,4 @@
-FROM supabase/gotrue:v2.137.7
+FROM supabase/gotrue:v2.137.4
 
 COPY ./start.sh /app/start.sh
 RUN chmod +x /app/start.sh
